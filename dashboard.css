@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+}
+.myNav{
+    background-color:#40e0d0;
+    height: 60px;
+    width: 100%;
+}
+.left_container{
+    width: 250px;
+    height: 88px;
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 13px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.right_container{
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+
+.right_container button{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.left_nav{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+.left_nav_items a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+.left_nav_items{
+    list-style: none;
+    margin-top: 50px;
+}
+.left_nav .left_nav_items a:hover{
+    color: #40e0d0;
+    transition: 1s;
+}
+
+main{
+    width: 50%;
+    margin-left: 260px;
+    margin-top: 8px;
+    padding: 10px;
+}
+main h3{
+    margin-top: 30px;
+    margin-left: 2px;
+}
+h3 {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.myProfile{
+    width: 700px;
+    height: 450px;
+    margin: 80px;
+    border: 2px solid rgb(182, 207, 182);
+    border-radius: 5px;
+    background-color: rgb(243, 255, 243);
+
+}
+#heading{
+    width: 700px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Times New Roman';
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(96, 141, 96);
+    color: rgb(1, 9, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#myProfile_details{
+    margin-top: 30px;
+}
+.myProfile_inputs{
+    width: 350px;
+    height: 25px;
+    margin: 30px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.myProfile_labels{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.myProfile_buttons{
+    margin-left: 50px;
+}
+
+#myProfileSubmitBtn{
+    width: 80px;
+    height: 30px;
+}
+h1 {
+
+}
